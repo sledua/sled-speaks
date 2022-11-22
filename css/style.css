@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Manrope-Bold';
+    src: url('../assets/font/Manrope-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Manrope-Medium';
+    src: url('../assets/font/Manrope-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    font-family: 'Manrope-Medium', sans-serif;
+    font-size: 13px;
+
+}
+.flex {
+    display: flex;
+}
+a {
+    font-size: 11px;
+}
