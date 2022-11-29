@@ -55,7 +55,8 @@ section {
 }
 
 .container {
-    width: 50%;
+    width: 90%;
+    max-width: 38.75rem;
     margin: 0 auto;
     border: 2px solid magenta;
 }
@@ -63,4 +64,50 @@ section {
 .section-two {
     background: #2e354f;
     color: #fff;
+}
+.card {
+    background: #000;
+    color: rgb(255, 255, 255);
+    width: 560px;
+    margin: 0 auto;
+    padding: 45px;
+}
+h1, p {
+    margin-top: 0;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: .5em;
+}
+p {
+    font-size: 1.125rem;
+}
+a {
+    color: black;
+}
+.button {
+    display: inline-block;
+    background: #ffe680;
+    color: black;
+    padding: 0.5em 1.25em;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 3.125em;
+}
+.button:hover {
+    background: orange;
+    color: #000;
+}
+.btn-big {
+    font-size: 1.5rem;
+}
+.btn-small {
+    font-size: .75rem;
+}
+.acent-color {
+    color: #ffe600;
+}
+.links {
+    margin-top: 0;
+    margin-bottom: 0;
 }
