@@ -3,6 +3,16 @@ body {
     color: #707070;
     margin: 0;
 }
+/* @media (min-width: 26.625em) {
+    body {
+        background: green;
+    }
+}
+@media (min-width: 48.0625em) {
+    body {
+        background: rgb(127, 128, 127);
+    }
+} */
 h1 {
     font-size: 3rem;
     color: #312614;
@@ -44,6 +54,15 @@ img {
     padding: .5em;
     color: #fff;
 }
+@media (max-width: 42.5em) {
+    .columns {
+        flex-direction: column;
+    }
+    .col {
+        width: 100%;
+    }
+}
+
 /* body {
     margin: 0;
     font-size: 18px;
