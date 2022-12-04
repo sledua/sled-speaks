@@ -1,8 +1,71 @@
 body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+    font-size: 2rem;
+    margin: 0;
+}
+.subtitle {
+    font-weight: bold;
+    color: #1792d2;
+    font-size: .75rem;
+    margin: 0;
+}
+.container {
+    width: 90%;
+    max-width: 56.25rem;
+    margin: 0 auto;
+}
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    padding: 2em 0;
+    background: #f8f8f8;
+}
+@media (max-width: 42.1875rem) {
+    .container-nav {
+        flex-direction: column;
+    }
+    header {
+        text-align: center;
+    }
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin-left: 2em;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+    padding: .25em 0;
+}
+nav a:hover, nav a:focus {
+    color: #1792d2;
+}
+.current-page {
+    border-bottom: 1px solid #707070;
+}
+.current-page:hover {
+    color: #707070;
+}
+/* body {
     font-size: 1.125rem;
     color: #707070;
     margin: 0;
-}
+} */
 /* @media (min-width: 26.625em) {
     body {
         background: green;
@@ -13,7 +76,7 @@ body {
         background: rgb(127, 128, 127);
     }
 } */
-h1 {
+/* h1 {
     font-size: 3rem;
     color: #312614;
     text-align: center;
@@ -61,7 +124,7 @@ img {
     .col {
         width: 100%;
     }
-}
+} */
 
 /* body {
     margin: 0;
