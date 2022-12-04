@@ -61,6 +61,14 @@ nav a:hover, nav a:focus {
 .current-page:hover {
     color: #707070;
 }
+@media (max-width: 42.1875rem) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: .5em 0;
+    }
+}
 /* body {
     font-size: 1.125rem;
     color: #707070;
