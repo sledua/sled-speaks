@@ -2,18 +2,32 @@ body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
-h1 {
+h1, h2, h3, .article-title {
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+}
+h1 {
     font-size: 2rem;
     margin: 0;
+}
+.upper {
+    text-transform: uppercase;
 }
 .subtitle {
     font-weight: bold;
     color: #1792d2;
     font-size: .75rem;
     margin: 0;
+}
+.article-title {
+    font-size: 1.5rem;
+}
+.article-read-more, .article-info {
+    font-size: .875rem;
+}
+.article-read-more {
+    color: #1792d2;
 }
 .container {
     width: 90%;
